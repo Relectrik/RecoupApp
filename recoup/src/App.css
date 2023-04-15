@@ -10,7 +10,7 @@
 }
 
 .LoginBox {
-  height: 70vh;
+  height: 80vh;
   width: 60vw;
   grid-area: center;
   justify-self: center;
@@ -23,6 +23,8 @@
 .LoginInput {
   width: 30vw;
   order: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .Logo {
@@ -33,7 +35,13 @@
 }
 
 #logoimg {
-  width: 30vw;
+  width: 100%;
+  align-self: center;
+}
+
+#googlelogo {
+  width: 10%;
+  margin-right: 10px;
   align-self: center;
 }
 
@@ -64,6 +72,15 @@ h1 {
   justify-self: center;
   height: 5vh;
   width: 15vw;
+}
+
+button {
+  text-align: center;
+  background-color: white;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 8px;
+  align-self: center;
 }
 
 @keyframes App-logo-spin {
