@@ -19,3 +19,9 @@ The point system opens up many opportunities for friendly competition outside of
 - Make an account to track your progress
 - Gain points for recycling
 - Redeem your points to get gift cards
+
+## APIs and Databases
+
+- ChatGPT API
+- Mapbox GL API
+- Firebase
