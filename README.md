@@ -1,1 +1,5 @@
 # RecoupApp
+
+## Functionality
+
+##
