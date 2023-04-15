@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <div className="App">
-      <Route>
+      <Router>
         <Routes>
           <Route>
             path="/" element=<div>hi</div>
           </Route>
         </Routes>
-      </Route>
+      </Router>
     </div>
   )
 }
