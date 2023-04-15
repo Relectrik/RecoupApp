@@ -1,11 +1,13 @@
-// import * as dotnev from "dotenv";
+import * as dotenv from 'dotenv'
 import { Configuration, OpenAIApi } from 'openai'
-import util from 'util'
-// const dotenv = require("dotenv");
+// import util from 'util'
+// const dotenv = require('dotenv')
 
-// dotenv.config();
+dotenv.config()
 
-//const key = process.env.OPEN_AI_API;
+const key = process.env.OPEN_AI_API
+console.log('API key: ', key)
+console.log('Process: ', JSON.stringify(process))
 const config = new Configuration({ apiKey: key })
 const openai = new OpenAIApi(config)
 
