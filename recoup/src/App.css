@@ -10,19 +10,31 @@
 }
 
 .LoginBox {
-  height: 60vh;
-  width: 25vw;
+  height: 70vh;
+  width: 60vw;
   grid-area: center;
   justify-self: center;
   background-color: rgb(0, 122, 255);
-  border-radius: 10%;
+  border-radius: 3%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.LoginInput {
+  width: 30vw;
+  order: 1;
+}
+
+.Logo {
+  width: 30vw;
+  order: 2;
+  display: flex;
+  flex-direction: row;
+}
+
+#logoimg {
+  width: 30vw;
+  align-self: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -46,12 +58,12 @@
   color: #61dafb;
 }
 
-h2 {
+h1 {
   text-align: center;
-  order: 1;
-  flex-basis: auto;
+  grid-area: header;
+  justify-self: center;
   height: 5vh;
-  width: 10vw;
+  width: 15vw;
 }
 
 @keyframes App-logo-spin {

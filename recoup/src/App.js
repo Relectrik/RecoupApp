@@ -1,11 +1,16 @@
-import logo from "./logo.svg";
 import "./App.css";
+import logo from "./images/recouplogo.png";
 
 function App() {
   return (
     <div className="LoginPage">
+      <h1>Login Here</h1>
       <div className="LoginBox">
-        <h2>Login Here, or continue as guest</h2>
+        <div className="LoginInput"></div>
+        <div className="Logo">
+          <img src={logo} alt="logo" id="logoimg" />
+        </div>
+
         <a></a>
       </div>
     </div>
