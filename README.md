@@ -1,7 +1,7 @@
 # Recoup App : Reduce, Reuse and Recycle!
 
 <p align="center">
-  <img src="src/images/recouplogo.png" width="50%">
+  <img src="recoup/src/images/recouplogo.png" width="50%">
 </p>
 
 
