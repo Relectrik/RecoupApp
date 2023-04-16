@@ -37,6 +37,9 @@
 #logoimg {
   width: 100%;
   align-self: center;
+  border-color: black;
+  border-style: solid;
+  border-radius: 50%;
 }
 
 #googlelogo {

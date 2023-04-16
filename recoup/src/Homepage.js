@@ -2,6 +2,7 @@ import './Homepage.css'
 import recouptitle from './images/recouptitle.png'
 import InputField from './InputField.js'
 import { useState } from 'react'
+import { SignOut } from './services/authService.js'
 
 async function askOpenAI(query) {
   //     const url =""
@@ -22,7 +23,9 @@ const Homepage = () => {
         <ul>
           <li>About</li>
           <li onClick={() => setDisplaySearch(!displaySearch)}>Search</li>
-          <li>Logout</li>
+          <li>
+            <SignOut />
+          </li>
         </ul>
       </div>
       <img src={recouptitle} alt="header" id="homepageheader"></img>
