@@ -1,0 +1,59 @@
+.HomePage {
+  background: rgb(252, 107, 109);
+  background: linear-gradient(0deg, rgba(252, 107, 109, 1) 0%, rgba(255, 140, 84, 1) 100%);
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1.2fr;
+  grid-template-rows: 15vh 85vh;
+  grid-template-areas: 'nav header userinfo' 'nav history history';
+}
+
+.top {
+  background-color: white;
+  grid-area: header;
+  width: 4fr;
+}
+
+.userinfo {
+  background-color: white;
+  grid-area: userinfo;
+  width: 1.2fr;
+}
+
+.navbar {
+  background-color: white;
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  width: 1fr;
+}
+
+#search {
+  grid-area: history;
+  justify-self: center;
+}
+
+input {
+  width: 40vw;
+  height: 5vh;
+  font-size: 3.5vh;
+}
+
+#homepageheader {
+  background-color: white;
+  grid-area: header;
+  height: 13vh;
+}
+
+li {
+  list-style-type: none;
+  font-size: 5vh;
+  transition: 0.1s ease-in;
+  margin-top: 2vh;
+}
+
+li:hover {
+  transition: 0.15s ease-out;
+  margin-left: 1vw;
+}
