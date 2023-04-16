@@ -1,6 +1,6 @@
 import './styles/Authenticate.css'
 import googlelogo from './images/googlelogo.png'
-import logo from './images/recouplogo.png'
+import logo from './images/applogo2.png'
 import { SignIn } from './services/authService.js'
 
 export const Authenticate = () => {

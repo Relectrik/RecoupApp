@@ -1,14 +1,11 @@
 import { useState } from 'react'
-
 export default function InputField({ action }) {
   const [query, setQuery] = useState('')
-
   function submit(e, v) {
     e.preventDefault()
     action(query)
     setQuery('')
   }
-
   return (
     <div>
       <form onSubmit={submit}>
