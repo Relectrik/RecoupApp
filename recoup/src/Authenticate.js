@@ -1,27 +1,21 @@
 import './styles/Authenticate.css'
-import googlelogo from './images/googlelogo.png'
+// import googlelogo from './images/googlelogo.png'
 import logo from './images/applogo2.png'
 import { SignIn } from './services/authService.js'
 
 export const Authenticate = () => {
   return (
-    <div>
+    <div id="login"> 
+    {/* <div className="LoginBox"> */}
       <h1>Login Here</h1>
-      <div className="LoginBox">
-        <div className="LoginInput">
-          {/* <input className="EmailInput" placeholder="Email" />{' '}
-          <input className="PasswordInput" placeholder="Password" /> */}
-          {/* <button>Login</button> */}
-          {/* <button>
-            <img src={googlelogo} alt="googlelogo" id="googlelogo"></img>
-            Login with Google
-          </button> */}
+     
+        {/* <div className="LoginInput"> */}
           <SignIn />
-        </div>
+        {/* </div> */}
         <div className="Logo">
           <img src={logo} alt="logo" id="logoimg" />
         </div>
-      </div>
+      {/* </div> */}
     </div>
   )
 }

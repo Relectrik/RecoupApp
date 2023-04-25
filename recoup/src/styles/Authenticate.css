@@ -1,4 +1,4 @@
-.LoginPage {
+/* .LoginPage {
   text-align: center;
   background-color: rgb(52, 199, 89);
   height: 100vh;
@@ -6,19 +6,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: 'header' 'm' 'footer';
-}
+  grid-template-areas: 'header' 'middle' 'footer';
+} */
 
-.LoginBox {
+#login {  
+  grid-area: center;
   display: flex;
-  flex-direction: row;
-  height: 80vh;
-  width: 60vw;
-  grid-area: m;
-  /* justify-content: center; */
-  /* justify-self: center; */
-  background-color: rgb(52, 199, 89);
-  border-radius: 3%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .LoginInput {
@@ -37,49 +33,5 @@
 
 #logoimg {
   width: 100%;
-  align-self: center;
-}
-
-#googlelogo {
-  width: 10%;
-  margin-right: 10px;
-  align-self: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-h1 {
-  text-align: center;
-  grid-area: header;
-  justify-self: center;
-  height: 5vh;
-  width: 15vw;
-}
-
-button {
-  text-align: center;
-  background-color: white;
-  height: 5vh;
-  width: 10vw;
-  border-radius: 8px;
   align-self: center;
 }

@@ -5,7 +5,7 @@ import { useAuthentication } from './services/authService.js'
 
 function App() {
   const user = useAuthentication()
-  return <div className="LoginPage">{!user ? <Authenticate /> : <Homepage />}</div>
+  return <div className="LoginContainer">{!user ? <Authenticate /> : <Homepage />}</div>
 }
 
 export default App
