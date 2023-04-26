@@ -34,6 +34,6 @@ button {
 }
 
 button:hover {
-  background-color: gray;
-  transition: 0.3s ease-in;
+  background-color: lightgrey;
+  transition: 0.1s ease-in;
 }
