@@ -12,7 +12,7 @@
   grid-template-areas: 'header' 'center' 'footer';
 }
 
-#LoginContainer {  
+#LoginContainer {
   height: 80vh;
   width: 60vw;
   grid-area: center;
@@ -20,7 +20,6 @@
   background: rgb(252, 107, 109);
   background: linear-gradient(0deg, rgba(252, 107, 109, 1) 0%, rgba(255, 140, 84, 1) 100%);
   border-radius: 3%;
-
 }
 
 button {
@@ -30,4 +29,11 @@ button {
   width: 10vw;
   border-radius: 8px;
   align-self: center;
+  margin: 1vw;
+  transition: 0.3s ease-out;
+}
+
+button:hover {
+  background-color: gray;
+  transition: 0.3s ease-in;
 }

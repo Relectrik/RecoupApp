@@ -16,6 +16,7 @@
 .userinfo {
   background-color: white;
   grid-area: userinfo;
+  font-size: 3.2vh;
   width: 1.2fr;
 }
 .navbar {

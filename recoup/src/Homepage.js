@@ -15,17 +15,19 @@ const Homepage = () => {
   return (
     <div className="HomePage">
       <div className="top"></div>
-      <div className="userinfo"></div>
+      <div className="userinfo">
+        {' '}
+        <SignOut />
+      </div>
       <div className="navbar">
         <ul>
           <li>About</li>
           <li onClick={() => setDisplaySearch(!displaySearch)}>Search</li>
-          <li>
-            <SignOut />
-          </li>
+          <li></li>
         </ul>
       </div>
       <img src={recouptitle} alt="header" id="homepageheader"></img>
+
       <div id="search">{displaySearch ? <InputField action={askOpenAI} /> : ''}</div>
       <div id="here">{data}</div>
     </div>
