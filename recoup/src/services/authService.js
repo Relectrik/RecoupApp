@@ -5,7 +5,7 @@ import { db } from '../firebaseConfig.js'
 import { createUser } from './userService.js'
 // import { collection, query, getDocs, addDoc, orderBy, limit } from 'firebase/firestore'
 export function SignIn() {
-  return <button onClick={() => signInWithPopup(auth, new GoogleAuthProvider())}>Sign In</button>
+  return <button id="signIn"onClick={() => signInWithPopup(auth, new GoogleAuthProvider())}>Sign In</button>
 }
 
 export function SignOut() {

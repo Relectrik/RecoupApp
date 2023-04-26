@@ -7,14 +7,14 @@ export const Authenticate = () => {
   return (
     <div id="login"> 
     {/* <div className="LoginBox"> */}
-      <h1>Login Here</h1>
+      <h1 id="title">Recoup</h1>
      
         {/* <div className="LoginInput"> */}
           <SignIn />
         {/* </div> */}
-        <div className="Logo">
+        {/* <div className="Logo"> */}
           <img src={logo} alt="logo" id="logoimg" />
-        </div>
+        {/* </div> */}
       {/* </div> */}
     </div>
   )
