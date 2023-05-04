@@ -12,6 +12,8 @@
 
 <p align="justify">    The point system opens up many opportunities for friendly competition outside of the app too! How about competing against your friends to see who can get the most points in a short amount of time? Or compare how many different recycle centers you have visited? When we think about recycling, fun isn't necessarily the first thing that comes to mind, but Recoup is brining a brand new perspective to have fun while doing good!</p>
 
+We also setup a Proxy Server to host our API key on, so that it wouldn't be compromised. This Proxy Server is hosted on Replit.
+
 ## Functionality
 
 - Search ways to recycle waste
